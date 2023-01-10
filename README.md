@@ -1,2 +1,2 @@
 # springboot-demo-github-actions
-feature f1
+feature f1 
