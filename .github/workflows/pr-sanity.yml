@@ -20,7 +20,10 @@ jobs:
       - name: init
         id: init
         shell: bash
+        with:
+          path: ${GITHUB_WORKSPACE}
         run: |
           java -version
           mvn --version
-          #ls -lart
+          ls -lart
+          cat README.md
