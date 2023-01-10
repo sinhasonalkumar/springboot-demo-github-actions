@@ -19,7 +19,6 @@ jobs:
         id: init
         shell: bash
         run: |
-          run: |
           java -version
           mvn --version
           #ls -lart
