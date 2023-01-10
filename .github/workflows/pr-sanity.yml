@@ -20,8 +20,6 @@ jobs:
       - name: init
         id: init
         shell: bash
-        with:
-          path: ${GITHUB_WORKSPACE}
         run: |
           java -version
           mvn --version
